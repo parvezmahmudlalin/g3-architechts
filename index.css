@@ -267,3 +267,28 @@ footer{
   padding: 39px 410px;
 
 }
+
+
+/* responsive section */
+
+@media screen and (max-width:576px){
+  .navbar ,.nav-link ,.teams ,.features {
+    flex-direction: column;
+  }
+
+
+  .facts-container ,.sponsor-container ,.team-img-container{
+   grid-template-columns:repeat(1,1fr);
+  }
+  .facts-container ,.sponsor-container, {
+    justify-items: center;
+    gap: 20px;
+  }
+  .our-features{
+    margin-left: 20px;
+  }
+  
+  .featured-architect img{
+    width: 100%;;
+  }
+}
