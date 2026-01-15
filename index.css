@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.navbar,.banner{
+.navbar,.banner {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -163,12 +163,42 @@ main>section{
 .fact-number{
   font-weight: 600;
   font-size: 2.82rem ;
-  margin-top: 10px;
-  /* margin-bottom: 10px ; */
+  margin-top: 5px;
+  margin-bottom: 10px ;
 }
 
 .fact-name{
   font-weight: 600;
   font-size: 1.25rem;
-  margin-top: 5;
+  margin-top: 5px;
+}
+
+
+
+
+/* features related style */
+
+#features-section-title{
+ border-left: 5px solid #FF900E;
+ padding-left: 20px;
+}
+
+.features-title{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.features{
+  
+  gap: 120px;
+}
+.feature-card{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  row-gap: 10px;
+}
+
+.featured-architect-image{
+  /* width:  100%; */
 }
