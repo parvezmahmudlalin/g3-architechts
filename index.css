@@ -177,12 +177,28 @@ main>section{
 
 
 /* features related style */
+#fetures-btn{
+  padding: 46px 42px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: -100px;
+  margin-left: -100px;
+}
 
 #features-section-title{
  border-left: 5px solid #FF900E;
  padding-left: 20px;
+ /* font-size: 1.5rem;
+ font-weight: 500;
+ margin-left: -100px;
+ margin-top: -100px; */
 }
 
+#btn-text{
+  font-weight: 700;
+  font-size: 4rem;
+  color: FFFFFF;
+}
 .features-title{
   font-weight: 700;
   font-size: 2.8rem;
@@ -196,9 +212,58 @@ main>section{
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
-  row-gap: 10px;
+  margin-bottom: 30px;
 }
 
-.featured-architect-image{
-  /* width:  100%; */
+.featured-architect img{
+    /* width: 100%; */
+}
+
+
+.feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+
+/* Sponsor Section */
+.sponsor-heading{
+  max-width: 542px;
+  max-height: 129px;
+  /* justify-content: center */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sponsor-container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-top: 50px;
+}
+
+.sponsor-title{
+  font-weight: 700;
+  font-size: 2.85rem;
+}
+
+/* .sponsor-description{
+  margin-top: 24px;
+} */
+
+
+/* footer section */
+
+footer{
+  max-width: 1440px;
+  /* max-height: 100px; */
+  /* border: 1px solid rgb(255, 255, 255); */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin: 130px 240px;
+ 
+}
+.footer-description{
+  text-align: center;
+  padding: 39px 410px;
+
 }
